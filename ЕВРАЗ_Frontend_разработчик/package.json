@@ -4,7 +4,8 @@
   "description": "App for displaying charts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "smth": "echo \"hello, world\"",
+    "dev": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/lusm554/Shift-Enter/issues"
   },
-  "homepage": "https://github.com/lusm554/Shift-Enter#readme"
+  "homepage": "https://github.com/lusm554/Shift-Enter#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
 }
